@@ -1,0 +1,58 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+@media(max-width: 991px) {
+    .sidebar {
+        background-color: rgba(225, 225, 225, 0.15);
+        backdrop-filter: blur(10px);
+    }
+}
+.dropdown-menu-center {
+    left: 50% !important;
+    right: auto !important;
+    text-align: center !important;
+    transform: translate(-50%, 0) !important;
+  }
+.sign:hover {
+    transform: scale(1.05);
+
+}
+main {
+    padding: 80px 20px;
+}
+.mfirst-line {
+    border-bottom: 1px solid gray;
+    margin-bottom: 20px;
+}
+
+/*----main css---*/
+.gae-main {
+    
+}
+
+.gae-main-h3 {
+    color: white;
+    font-weight: 600;
+    font-size: 30px;
+    padding-bottom: 10px;
+    text-align: left;
+
+}
+.gae-main-p {
+    font-weight: 500;
+    color: white;
+    text-align: left;
+}
+
+/*--- 추천작 리스트 ---*/
+.img-chulist {
+        width: 36px;
+        height: 36px;
+        border-radius: 50%;
+        object-fit: cover;
+}
+
+
+
