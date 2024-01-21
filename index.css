@@ -28,9 +28,6 @@ main {
 }
 
 /*----main css---*/
-.gae-main {
-    
-}
 
 .gae-main-h3 {
     color: white;
@@ -47,12 +44,59 @@ main {
 }
 
 /*--- 추천작 리스트 ---*/
-.img-chulist {
-        width: 36px;
-        height: 36px;
-        border-radius: 50%;
-        object-fit: cover;
+
+.seo-title {
+    padding-top: 30px;
+    padding-bottom: 10px;
 }
+.seo-poster {
+    border: none;
+    margin-bottom: 10px;
+}
+.card:hover {
+    transform: scale(1.05);
+    transition: 0.5s ease-in-out;
+}
+
+/*footer*/
+
+.first-line {
+    color: white;
+    border-bottom: 1px solid gray;
+    font-weight: 500;
+}
+
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x) * -.5);
+    margin-left: calc(var(--bs-gutter-x) * -.5);
+}
+
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 400;
+}
+
+p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #90a7b2;
+    font-weight: 400;
+}
+
+
+.footer-info-copyright {
+    font-size: 12px;
+    line-height: 20px;
+}
+
+
 
 
 
